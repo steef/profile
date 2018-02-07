@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #DD5555;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 15px;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B62C23;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li a i {
+  font-size: 25px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #B62C23;
+  color: white;
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#movies img {
+  width: 80px;
+}
+
+#movies td {
+  padding: 10px;
+}
